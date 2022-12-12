@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg bg-opacity-100 col-12 " style="background-color:  rgb(208, 230, 239);;">
+            <div class="container-fluid " style="padding-right: 150px;">
+              <a class="navbar-brand " href="#"><img src="C:\Users\JOSEP\Desktop\bootstrap project\buildlogo.png" width="120" height="70" ></a>
+              <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                  </button>
+                  <div class="collapse navbar-collapse col-12" id="navbarNavDropdown" style=" padding-right: 150px; width:50px;">
+                    <ul class="navbar-nav ms-auto ">
+                  <li class="nav-item ">
+                    <a class="nav-link active" aria-current="page" href="#carouselExampleInterval" >Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#Mentors">Mentors</a>
+                  </li>
+                  <li class="nav-item  ">
+                    <a class="nav-link active" href="#Register" >
+                      Register
+                    </a>
+                    
+                  </li>
+                  <li class="nav-item  ">
+                    <a class="nav-link active" href="#Participants" >
+                      Participants
+                    </a>
+                    
+                  </li>
+              </div>   
+              </div>
+            </div>
+          </nav>
+    </header><br>
+    <section style="margin-top: 150px;">
+        <div id="carouselExampleInterval" class="carousel slide col-12" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active col-12" data-bs-interval="2000">
+                <img src="C:\Users\JOSEP\Desktop\bootstrap project\carousel1.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item col-12" data-bs-interval="2000">
+                <img src="C:\Users\JOSEP\Desktop\bootstrap project\carousel2.png" class="d-block w-100" alt="...">
+              </div>
+             
+            </div>
+            <button class="carousel-control-prev col-12" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next col-12" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section><br>
+    <section class="text-center p-5">
+      <h3 class="text-center">Join Us</h3><br>
+      <p >Pygrammers is community of python enthusiasts with similar idealogies and interest</p>
+      <a href="https://telegram.me/pygrammers_official" target="_blank">
+        <button class="btn btn-primary text-center" type="submit">Telegram</button></a>
+    </section><br>
+    <section class="col-l-12 col-md-12">
+        <div id="Register" class="form d-flex p-2 justify-content-center col-12 col-md-12  ">
+       
+            <form class="border border-secondary p-3 justify-content-center col-12" >
+                <div class="text-center"><p class="font-weight-bold"><h2 class="p-2 mb-3">Form:</h2></p></div> 
+                <div class="mb-3 text-center">
+                    <label for="exampleInputname" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="exampleInputname">
+                    </div>
+                 <div class="mb-3 text-center col-12">
+                      <label for="exampleInputphone" class="form-label">Mobile No</label>
+                      <input type="text" class="form-control" id="exampleInputphone">
+                  </div>    
+                <div class="mb-3 text-center col-12">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1">
+                </div>
+                <div class="mb-3 text-center col-12">
+                    <label for="exampleInputname" class="form-label">Company / Institution name</label>
+                    <input type="text" class="form-control" id="exampleInputname">
+                    </div>
+                    <div class="input-group" aria-describedby="emailHelp">
+                        <div class="custom-file">
+                        <div id="uploadHelp" class="form-text text-wrap col-12 col-md-12">Upload a short video or image of hand written sheet for showing your interest to join build.myweb</div>
+                          <input type="file" class="custom-file-input" id="inputGroupFile04">
+                        </div>  
+                    </div> <br>
+                    <form class="form-inline col-12 ">
+                      <label class="my-1 mr-2 " for="inlineFormCustomSelectPref"></label>
+                      <select class="custom-select p-1  col-12" id="inlineFormCustomSelectPref">
+                        <option selected>Have you attended any events by Pygrammers before?!</option>
+                        <option value="1">Yes</option>
+                        <option value="2">No</option>
+                      </select>
+                      <div class="align-self-center mr-auto text-center p-4">
+                        <button type="button" class="btn" style="background-color: rgb(208, 230, 239);">
+                          Submit Form
+                        </button>
+                    </div>
+                    </form>    
+            </form>
+            </div>    
+    </section>
+    <section class="p-4">
+        <div id="Mentors" class="container-fluid d-flex p-2 justify-content-center" style="background-color: rgb(208,230,239);">
+            <div class="row mb-5 justify-content-center" style="width:fit-content">
+                <p ><h3 class="text-center">Mentors</h3></p>
+            <div class=" col-12 col-sm-6 col-md-4 p-1 justify-content-center " style="width:fit-content"  > 
+            <div class="card m-5" style="width:18rem; border: 0;">
+                <img src="C:\Users\JOSEP\Desktop\bootstrap project\elon.jpeg" class="card-img-top" alt="..." style="border: 0;" >
+                <div class="card-body" style="background-color: rgb(208,230,239);">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div> 
+            </div>
+    
+            <div class=" col-12 col-sm-6 col-md-4 p-1 justify-content-center" style="width:fit-content"  > 
+                <div class="card m-5" style="width: 18rem; border: 0;">
+                    <img src="C:\Users\JOSEP\Desktop\bootstrap project\elon.jpeg" class="card-img-top " alt="...">
+                    <div class="card-body" style="background-color: rgb(208,230,239);">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div> 
+                </div>
+    
+                <div class=" col-12 col-sm-6 col-md-4 p-1 "style="width:fit-content;" > 
+                    <div class="card m-5" style="width: 18rem; border:0">
+                        <img src="C:\Users\JOSEP\Desktop\bootstrap project\elon.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body" style="background-color: rgb(208,230,239);">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div> 
+                    </div>
+                    
+                    <div class=" col-12 col-sm-6 col-md-4 p-1" style="width:fit-content" > 
+                        <div class="card m-5" style="width: 18rem; background-color: rgb(208,230,239); border: 0;">
+                            <img src="C:\Users\JOSEP\Desktop\bootstrap project\elon.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div> 
+                        </div>
+                        
+                        <div class=" col-12 col-sm-6 col-md-4 p-1" style="width:fit-content" > 
+                            <div class="card m-5" style="width: 18rem; background-color: rgb(208,230,239);border:0">
+                                <img src="C:\Users\JOSEP\Desktop\bootstrap project\elon.jpeg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div> 
+                            </div>
+                            
+                            <div class=" col-12 col-sm-6 col-md-4 p-1" style="width:fit-content" > 
+                                <div class="card m-5" style="width: 18rem; background-color: rgb(208,230,239); border:0">
+                                    <img src="C:\Users\JOSEP\Desktop\bootstrap project\elon.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                </div> 
+                                </div>       
+            </div>
+        </div>
+    </section>
+    <section id="Participants">
+      <h3><p class="text-center p-4">Participants</p></h3>
+      <table class="table table-hover text-center">
+        <thead>
+          <tr style="background-color: black; color: white;">
+            <th scope="col">No</th>
+            <th scope="col">Name</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td colspan="2">John</td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>Mary</td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>Joseph</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <footer>
+      <div class="text-center p-4" style="background-color:rgba(0,0,0,0.2)">
+      <a class="navbar-brand " href="#"><img src="C:\Users\JOSEP\Desktop\bootstrap project\footer.png" style="width: 200px; height: 50px;" ></a>
+    </div> 
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>     
+</body>
+</html>
